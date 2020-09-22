@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:myname="http://github.com/huazai"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://github.com/huazai         http://github.com/huazai/product.xsd" >
+
+    <myname:product id="product" code="010103" name="fund" />
+<!--
+    <bean id="product" class="com.demo.beans.Product">
+        <property name="code" value="0101001"/>
+        <property name="name" value="fund" />
+        <constructor-arg name="code" value="0101002" />
+        <constructor-arg  name="name" value="fund"/>
+    </bean> -->
+</beans>
